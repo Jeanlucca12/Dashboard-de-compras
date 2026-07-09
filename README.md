@@ -10,6 +10,9 @@ Dashboard interativo para análise de dados de vendas de uma rede fictícia de l
 - **KPIs de negócio**: valor total de vendas, quantidade de compras, loja com melhor desempenho, vendedor com maior faturamento e cálculo de comissão
 - **CRUD simples**: cadastro de novas compras diretamente pela interface, persistido no CSV
 
+- ## Veja ele no ar utilizando o Streamlit Cloud!
+- Link: https://dashboard-de-compras-analytics.streamlit.app/
+
 ## 🗂️ Estrutura do projeto
 
 ```
