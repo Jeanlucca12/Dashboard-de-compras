@@ -43,8 +43,8 @@ Na barra lateral também é possível **gerar um novo dataset de exemplo** com u
 
 ```bash
 # Clone o repositório
-git clone https://github.com/Jeanlucca12/Dashboard-de-compras-.git
-cd Dashboard-de-compras-
+git clone https://github.com/Jeanlucca12/Dashboard-de-compras.git
+cd Dashboard-de-compras
 
 # Instale as dependências
 pip install -r requirements.txt
