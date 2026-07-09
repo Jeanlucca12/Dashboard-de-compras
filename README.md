@@ -15,7 +15,6 @@ Dashboard interativo para análise de dados de vendas de uma rede fictícia de l
 ```
 Dashboard-de-compras/
 ├── app.py              # Aplicação única, com uma aba para cada funcionalidade
-├── gera_dataset.py      # Script original de geração de dados (mantido por referência)
 ├── requirements.txt     # Dependências do projeto
 └── datasets/            # CSVs/Excel gerados (compras, lojas, produtos)
 ```
@@ -65,11 +64,6 @@ Na primeira execução, se ainda não existir uma base de dados, o app avisa e b
 - **Cadastro de novas compras** direto pela interface, sem precisar editar o CSV manualmente
 - **Tabela dinâmica configurável**: o usuário escolhe quais colunas viram índice, quais viram cabeçalho e qual métrica deseja visualizar
 
-## 🔧 Ajustes feitos na unificação
-
-Ao consolidar os 5 scripts originais em `app.py`, dois pequenos ajustes de comportamento foram feitos:
-- Corrigido o salvamento do CSV de compras na aba "Nova Compra", que antes perdia a coluna de data ao salvar
-- O cálculo do vendedor principal na aba "Indicadores" agora só roda quando existem compras no período selecionado, evitando erro com período vazio
 
 ## 💡 Próximos passos (ideias de evolução)
 
